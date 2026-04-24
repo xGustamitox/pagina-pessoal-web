@@ -24,3 +24,9 @@ header, footer {
 body.tema-escuro header, body.tema-escuro footer {
     background-color: #1a1a1a;
 }
+
+/* Força os textos específicos do Bootstrap a ficarem claros no modo escuro */
+body.tema-escuro .list-group-item,
+body.tema-escuro .text-muted {
+    color: #e0e0e0 !important;
+}
