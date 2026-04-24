@@ -1,4 +1,0 @@
-/* Transição suave para mudança de cores */
-body { 
-    transition: background-color 0.3s, color 0.3s; 
-}
